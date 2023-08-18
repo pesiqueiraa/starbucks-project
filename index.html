@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="circulo"></div>
+
+    <img src="./img/logo.png" class="logo">
+
+    <div class="conteudo">
+
+        <div class="caixa-texto">
+            <h2>It's not just coffee <br> It's <span>Starbucks</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit amet, minus maxime possimus ea ipsa est
+                quo
+                fugiat odio numquam deserunt harum doloribus provident libero culpa autem pariatur doloremque nemo!</p>
+            <button>Lean More</button>
+        </div>
+
+        <div class="caixa-imagem">
+            <img class="starbucks" src="./img/img1.png">
+        </div>
+    </div>
+
+    <div class="menu">
+        <img src="./img/thumb1.png" class="botao-menu" onclick="trocarImagem('./img/img1.png'); trocaCor('#017143')"  >
+        <img src="./img/thumb2.png" class="botao-menu" onclick="trocarImagem('./img/img3.png'); trocaCor('#eb7495')"  >
+        <img src="./img/thumb3.png" class="botao-menu" onclick="trocarImagem('./img/img2.png'); trocaCor('#d752b1')"  >
+    </div>
+
+
+</body>
+
+    <script src="script.js"></script>
+
+</html>
